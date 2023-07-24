@@ -7,12 +7,12 @@ import com.google.firebase.auth.FirebaseAuth
 
 class FirebaseRepository(private val fds: FirebaseDataSource) : FirebaseInterface{
 
-    override suspend fun createUser(email: String, password: String) {
-        fds.createUser(email, password)
+    override suspend fun createUser(email: String, password: String,onSuccess: () -> Unit , onFail: (Exception) -> Unit,) {
+        fds.createUser(email, password,onSuccess,onFail)
     }
 
-    override suspend fun singInUser(email: String, password: String) {
-        fds.signInUser(email, password)
+    override suspend fun singInUser(email: String, password: String,onSuccess: () -> Unit , onFail: (Exception) -> Unit,) {
+        fds.signInUser(email, password,onSuccess,onFail)
     }
 
 

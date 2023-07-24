@@ -13,15 +13,15 @@ class RegisterViewModel @Inject constructor(
 ) : BaseViewModel() {
 
 
-     fun createUser(email:String,password:String){
+     fun createUser(email:String,password:String,onSuccess: () -> Unit = {}, onFail: (Exception) -> Unit = {},){
         viewModelScope.launch {
-            firebaseRepo.createUser(email, password)
+            firebaseRepo.createUser(email, password,onSuccess,onFail)
         }
     }
 
-    fun signIn(email:String,password:String){
+    fun signIn(email:String,password:String,onSuccess: () -> Unit = {}, onFail: (Exception) -> Unit = {},){
         viewModelScope.launch {
-            firebaseRepo.singInUser(email,password)
+            firebaseRepo.singInUser(email,password,onSuccess,onFail)
         }
     }
 

@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="lightBlack">#20242d</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="xColor">#ffc593</color>
+    <color name="orange">#e63b24</color>
+    <color name="blue">#00959a</color>
+    <color name="lightBlue">#BEF3F6</color>
+    <color name="milkWhite">#f2f3f4</color>
+    <color name="pinkRed">#f3164a</color>
+    <color name="lightOrange">#FFCA6A</color>
+    <color name="xBlue">#539FC5</color>
+    <color name="coldBlue">#A9CFE2</color>
+    <color name="backBlue">#6AAF91</color>
+    <color name="whiteBlue">#C2DEDC</color>
+    <color name="hBlue">#116A7B</color>
+    <color name="gBlue">#A6D0DD</color>
+    <color name="ggBlue">#1686AA</color>
+    <color name="appBlack">#454545</color>
+    <color name="appOrange">#FF6000</color>
+    <color name="SlateGreen">#606C5D</color>
+    <color name="appMilkWhite">#FFF4F4</color>
+    <color name="GoldenSun">#F7E6C4</color>
+    <color name="VanillaCream">#F1C376</color>
+    <color name="DarkTeal">#606C5D</color>
 </resources>

@@ -2,4 +2,20 @@
     <string name="app_name">ConsoleX</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="have_an_account_login">Have an account? login</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    <string name="resetEmailMessage">Please enter your registered email to send Instructions reset your password to you</string>
+    <string name="resetYourPassword">Reset your password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="resetText1">Enter the email address</string>
+    <string name="resetText2">associated with your account.</string>
+    <string name="resetText3">We will email you a link to reset</string>
+    <string name="resetText4">your password</string>
 </resources>

@@ -6,10 +6,12 @@ import com.google.firebase.ktx.Firebase
 
 interface FirebaseInterface{
 
- suspend fun createUser(email : String, password: String)
+ suspend fun createUser(email : String, password: String,onSuccess: () -> Unit, onFail: (Exception) -> Unit,)
 
 
- suspend fun singInUser(email: String,password: String)
+ suspend fun singInUser(email: String,password: String,onSuccess: () -> Unit, onFail: (Exception) -> Unit,)
+
+
 
 
 }
