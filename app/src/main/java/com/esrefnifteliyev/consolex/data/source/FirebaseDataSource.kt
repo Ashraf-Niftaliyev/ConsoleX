@@ -10,13 +10,8 @@ class FirebaseDataSource(
     private val auth: FirebaseAuth
 )  {
 
-    
     suspend fun createUser(email:String,password:String) = withContext(Dispatchers.IO){
-        auth.createUserWithEmailAndPassword(email,password).addOnSuccessListener {
-
-        }.addOnFailureListener {
-
-        }
+        auth.createUserWithEmailAndPassword(email,password)
     }
 
     suspend fun signInUser(email:String,password:String) = withContext(Dispatchers.IO){

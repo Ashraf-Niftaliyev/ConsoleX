@@ -12,6 +12,4 @@ interface FirebaseInterface{
  suspend fun singInUser(email: String,password: String)
 
 
-
-
 }
